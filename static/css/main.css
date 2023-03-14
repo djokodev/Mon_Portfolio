@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+.card{
+    paddin:20px;
+    margin:20px;
+    margin-top:40px;
+    box-shadow: 6px 6px 15px green;
+
+}
+.style{
+    background:	 	#F0F8FF	;
+}
+
+h1{
+
+    text-align:center;
+    text-decoration:underline;
+    text-shadow:1px 1px 5px black;
+    font-family: 'Rubik Iso', cursive;
+    box-shadow: 6px 6px 15px rgb(16, 11, 8);
+
+}

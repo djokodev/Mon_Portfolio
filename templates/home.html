@@ -1,8 +1,13 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
 
-        {% for x in projet %}
+<div class="container">
+<div class="row">
+{% for x in projet %}
+
+    <div class="col">
 
         <div class="card" style="width: 18rem;">
             <img src="{{ x.image_url }}" class="card-img-top" alt="...">
@@ -13,6 +18,10 @@
             </div>
         </div>
 
-        {% endfor %}
+    </div>
+
+{% endfor %}
+</div>
+</div>
 
 {% endblock %}
