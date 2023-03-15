@@ -20,3 +20,11 @@ h1{
     box-shadow: 6px 6px 15px rgb(16, 11, 8);
 
 }
+
+.footer{
+    text-align:center;
+}
+
+a:hover{
+    color:green;
+}
