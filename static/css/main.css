@@ -1,31 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Pacifico&family=Raleway:wght@300&family=Rubik+Iso&display=swap');
 
 .card{
     paddin:20px;
     margin:20px;
-    margin-top:40px;
+    margin-top:50px;
     box-shadow: 6px 6px 15px green;
-    transition: all 0.3s;
+    transition: all 0.2s;
 
 }
 
+span{
+    font-family: 'Pacifico', cursive;
+    box-shadow: 6px 6px 15px rgb(16, 11, 8);
+}
+
 .card:hover{
-    transform: scale(1.10);
+    transform: scale(0.8);
 }
 
 .style{
     background:	 	#F0F8FF	;
 }
 
-h1{
-
-    text-align:center;
-    text-decoration:underline;
-    text-shadow:1px 1px 5px black;
-    font-family: 'Rubik Iso', cursive;
-    box-shadow: 6px 6px 15px rgb(16, 11, 8);
-
-}
 
 .footer{
     text-align:center;
@@ -35,3 +31,4 @@ h1{
 a:hover{
     opacity:0.5;
 }
+
